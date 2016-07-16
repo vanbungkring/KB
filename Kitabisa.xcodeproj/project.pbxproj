@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E7190601D39F7F70077A97E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71905F1D39F7F70077A97E /* main.m */; };
+		2E7190631D39F7F80077A97E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7190621D39F7F80077A97E /* AppDelegate.m */; };
+		2E7190661D39F7F80077A97E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7190651D39F7F80077A97E /* ViewController.m */; };
+		2E71906B1D39F7F80077A97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E71906A1D39F7F80077A97E /* Assets.xcassets */; };
+		2E71906E1D39F7F80077A97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E71906C1D39F7F80077A97E /* LaunchScreen.storyboard */; };
+		2E7190791D39F7F80077A97E /* KitabisaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7190781D39F7F80077A97E /* KitabisaTests.m */; };
+		2E7190841D39F7F80077A97E /* KitabisaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7190831D39F7F80077A97E /* KitabisaUITests.m */; };
+		2E7190951D39F9E10077A97E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7190941D39F9E10077A97E /* BaseViewController.m */; };
+		2E7190991D39FA110077A97E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7190981D39FA110077A97E /* BaseNavigationController.m */; };
+		2E71909D1D39FA6F0077A97E /* BaseTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71909C1D39FA6F0077A97E /* BaseTabbarViewController.m */; };
+		5C9CB6FD199E15D0D994B2B0 /* libPods-Kitabisa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAAF0DCA35CAA9D09234C52 /* libPods-Kitabisa.a */; };
+		AD95745446683BE57A175DE6 /* libPods-KitabisaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 895B391186F74C45929BA172 /* libPods-KitabisaTests.a */; };
+		FD1349DECA354596E726D57B /* libPods-KitabisaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAFFAACCE571678C755D5DB /* libPods-KitabisaUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E7190751D39F7F80077A97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7190531D39F7F70077A97E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E71905A1D39F7F70077A97E;
+			remoteInfo = Kitabisa;
+		};
+		2E7190801D39F7F80077A97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7190531D39F7F70077A97E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E71905A1D39F7F70077A97E;
+			remoteInfo = Kitabisa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188A7778BAD675A74775C35B /* Pods-KitabisaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitabisaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KitabisaUITests/Pods-KitabisaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A880CA1105E279F45066340 /* Pods-KitabisaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitabisaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KitabisaUITests/Pods-KitabisaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DAAF0DCA35CAA9D09234C52 /* libPods-Kitabisa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kitabisa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E71905B1D39F7F70077A97E /* Kitabisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitabisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E71905F1D39F7F70077A97E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E7190611D39F7F80077A97E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E7190621D39F7F80077A97E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E7190641D39F7F80077A97E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E7190651D39F7F80077A97E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E71906A1D39F7F80077A97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E71906D1D39F7F80077A97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E71906F1D39F7F80077A97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7190741D39F7F80077A97E /* KitabisaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitabisaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7190781D39F7F80077A97E /* KitabisaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitabisaTests.m; sourceTree = "<group>"; };
+		2E71907A1D39F7F80077A97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E71907F1D39F7F80077A97E /* KitabisaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitabisaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7190831D39F7F80077A97E /* KitabisaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitabisaUITests.m; sourceTree = "<group>"; };
+		2E7190851D39F7F80077A97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7190931D39F9E10077A97E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2E7190941D39F9E10077A97E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2E7190971D39FA110077A97E /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		2E7190981D39FA110077A97E /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		2E71909B1D39FA6F0077A97E /* BaseTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarViewController.h; sourceTree = "<group>"; };
+		2E71909C1D39FA6F0077A97E /* BaseTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarViewController.m; sourceTree = "<group>"; };
+		62BA2B35F9D5F354A500C048 /* Pods-Kitabisa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitabisa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kitabisa/Pods-Kitabisa.debug.xcconfig"; sourceTree = "<group>"; };
+		63D09363734233710521A13D /* Pods-KitabisaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitabisaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KitabisaTests/Pods-KitabisaTests.release.xcconfig"; sourceTree = "<group>"; };
+		895B391186F74C45929BA172 /* libPods-KitabisaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KitabisaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAFFAACCE571678C755D5DB /* libPods-KitabisaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KitabisaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A088BE8B0212B78E4FF64CBF /* Pods-Kitabisa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitabisa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kitabisa/Pods-Kitabisa.release.xcconfig"; sourceTree = "<group>"; };
+		E39C23BC5DF9AFE77F8FFB1F /* Pods-KitabisaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitabisaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KitabisaTests/Pods-KitabisaTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E7190581D39F7F70077A97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9CB6FD199E15D0D994B2B0 /* libPods-Kitabisa.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7190711D39F7F80077A97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD95745446683BE57A175DE6 /* libPods-KitabisaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E71907C1D39F7F80077A97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1349DECA354596E726D57B /* libPods-KitabisaUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040173BF6A47DFF54B771610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DAAF0DCA35CAA9D09234C52 /* libPods-Kitabisa.a */,
+				895B391186F74C45929BA172 /* libPods-KitabisaTests.a */,
+				8CAFFAACCE571678C755D5DB /* libPods-KitabisaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E7190521D39F7F70077A97E = {
+			isa = PBXGroup;
+			children = (
+				2E71905D1D39F7F70077A97E /* Kitabisa */,
+				2E7190771D39F7F80077A97E /* KitabisaTests */,
+				2E7190821D39F7F80077A97E /* KitabisaUITests */,
+				2E71905C1D39F7F70077A97E /* Products */,
+				76CE9A9D1DD5DDC014379F63 /* Pods */,
+				040173BF6A47DFF54B771610 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E71905C1D39F7F70077A97E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E71905B1D39F7F70077A97E /* Kitabisa.app */,
+				2E7190741D39F7F80077A97E /* KitabisaTests.xctest */,
+				2E71907F1D39F7F80077A97E /* KitabisaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E71905D1D39F7F70077A97E /* Kitabisa */ = {
+			isa = PBXGroup;
+			children = (
+				2E7190911D39F9C50077A97E /* ViewController */,
+				2E7190611D39F7F80077A97E /* AppDelegate.h */,
+				2E7190621D39F7F80077A97E /* AppDelegate.m */,
+				2E7190641D39F7F80077A97E /* ViewController.h */,
+				2E7190651D39F7F80077A97E /* ViewController.m */,
+				2E71906A1D39F7F80077A97E /* Assets.xcassets */,
+				2E71906C1D39F7F80077A97E /* LaunchScreen.storyboard */,
+				2E71906F1D39F7F80077A97E /* Info.plist */,
+				2E71905E1D39F7F70077A97E /* Supporting Files */,
+			);
+			path = Kitabisa;
+			sourceTree = "<group>";
+		};
+		2E71905E1D39F7F70077A97E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E71905F1D39F7F70077A97E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E7190771D39F7F80077A97E /* KitabisaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E7190781D39F7F80077A97E /* KitabisaTests.m */,
+				2E71907A1D39F7F80077A97E /* Info.plist */,
+			);
+			path = KitabisaTests;
+			sourceTree = "<group>";
+		};
+		2E7190821D39F7F80077A97E /* KitabisaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E7190831D39F7F80077A97E /* KitabisaUITests.m */,
+				2E7190851D39F7F80077A97E /* Info.plist */,
+			);
+			path = KitabisaUITests;
+			sourceTree = "<group>";
+		};
+		2E7190911D39F9C50077A97E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E7190921D39F9D30077A97E /* Base */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		2E7190921D39F9D30077A97E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2E71909A1D39FA1A0077A97E /* Tabbar */,
+				2E7190961D39F9EB0077A97E /* Navigation */,
+				2E7190931D39F9E10077A97E /* BaseViewController.h */,
+				2E7190941D39F9E10077A97E /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2E7190961D39F9EB0077A97E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2E7190971D39FA110077A97E /* BaseNavigationController.h */,
+				2E7190981D39FA110077A97E /* BaseNavigationController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		2E71909A1D39FA1A0077A97E /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				2E71909B1D39FA6F0077A97E /* BaseTabbarViewController.h */,
+				2E71909C1D39FA6F0077A97E /* BaseTabbarViewController.m */,
+			);
+			name = Tabbar;
+			sourceTree = "<group>";
+		};
+		76CE9A9D1DD5DDC014379F63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62BA2B35F9D5F354A500C048 /* Pods-Kitabisa.debug.xcconfig */,
+				A088BE8B0212B78E4FF64CBF /* Pods-Kitabisa.release.xcconfig */,
+				E39C23BC5DF9AFE77F8FFB1F /* Pods-KitabisaTests.debug.xcconfig */,
+				63D09363734233710521A13D /* Pods-KitabisaTests.release.xcconfig */,
+				2A880CA1105E279F45066340 /* Pods-KitabisaUITests.debug.xcconfig */,
+				188A7778BAD675A74775C35B /* Pods-KitabisaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E71905A1D39F7F70077A97E /* Kitabisa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E7190881D39F7F80077A97E /* Build configuration list for PBXNativeTarget "Kitabisa" */;
+			buildPhases = (
+				05B3249946DB649C01BA24CE /* 📦 Check Pods Manifest.lock */,
+				2E7190571D39F7F70077A97E /* Sources */,
+				2E7190581D39F7F70077A97E /* Frameworks */,
+				2E7190591D39F7F70077A97E /* Resources */,
+				142D3BD2FC587FB134E44397 /* 📦 Embed Pods Frameworks */,
+				AF7936CEFCF0C2E1C0678D49 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kitabisa;
+			productName = Kitabisa;
+			productReference = 2E71905B1D39F7F70077A97E /* Kitabisa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E7190731D39F7F80077A97E /* KitabisaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E71908B1D39F7F80077A97E /* Build configuration list for PBXNativeTarget "KitabisaTests" */;
+			buildPhases = (
+				E3AAFF0579776FE730B5B34A /* 📦 Check Pods Manifest.lock */,
+				2E7190701D39F7F80077A97E /* Sources */,
+				2E7190711D39F7F80077A97E /* Frameworks */,
+				2E7190721D39F7F80077A97E /* Resources */,
+				43D04FECA77CD60CB6956E30 /* 📦 Embed Pods Frameworks */,
+				45F52E328A6D61BF9E33D787 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E7190761D39F7F80077A97E /* PBXTargetDependency */,
+			);
+			name = KitabisaTests;
+			productName = KitabisaTests;
+			productReference = 2E7190741D39F7F80077A97E /* KitabisaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E71907E1D39F7F80077A97E /* KitabisaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E71908E1D39F7F80077A97E /* Build configuration list for PBXNativeTarget "KitabisaUITests" */;
+			buildPhases = (
+				DC2747BF93D43FDD5A385C89 /* 📦 Check Pods Manifest.lock */,
+				2E71907B1D39F7F80077A97E /* Sources */,
+				2E71907C1D39F7F80077A97E /* Frameworks */,
+				2E71907D1D39F7F80077A97E /* Resources */,
+				DEFF03D07E0B2C8953239E59 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E7190811D39F7F80077A97E /* PBXTargetDependency */,
+			);
+			name = KitabisaUITests;
+			productName = KitabisaUITests;
+			productReference = 2E71907F1D39F7F80077A97E /* KitabisaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E7190531D39F7F70077A97E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Netra;
+				TargetAttributes = {
+					2E71905A1D39F7F70077A97E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2E7190731D39F7F80077A97E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E71905A1D39F7F70077A97E;
+					};
+					2E71907E1D39F7F80077A97E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E71905A1D39F7F70077A97E;
+					};
+				};
+			};
+			buildConfigurationList = 2E7190561D39F7F70077A97E /* Build configuration list for PBXProject "Kitabisa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E7190521D39F7F70077A97E;
+			productRefGroup = 2E71905C1D39F7F70077A97E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E71905A1D39F7F70077A97E /* Kitabisa */,
+				2E7190731D39F7F80077A97E /* KitabisaTests */,
+				2E71907E1D39F7F80077A97E /* KitabisaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E7190591D39F7F70077A97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E71906E1D39F7F80077A97E /* LaunchScreen.storyboard in Resources */,
+				2E71906B1D39F7F80077A97E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7190721D39F7F80077A97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E71907D1D39F7F80077A97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B3249946DB649C01BA24CE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		142D3BD2FC587FB134E44397 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitabisa/Pods-Kitabisa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D04FECA77CD60CB6956E30 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KitabisaTests/Pods-KitabisaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45F52E328A6D61BF9E33D787 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KitabisaTests/Pods-KitabisaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7936CEFCF0C2E1C0678D49 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitabisa/Pods-Kitabisa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2747BF93D43FDD5A385C89 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEFF03D07E0B2C8953239E59 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KitabisaUITests/Pods-KitabisaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3AAFF0579776FE730B5B34A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E7190571D39F7F70077A97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7190661D39F7F80077A97E /* ViewController.m in Sources */,
+				2E7190951D39F9E10077A97E /* BaseViewController.m in Sources */,
+				2E7190631D39F7F80077A97E /* AppDelegate.m in Sources */,
+				2E71909D1D39FA6F0077A97E /* BaseTabbarViewController.m in Sources */,
+				2E7190601D39F7F70077A97E /* main.m in Sources */,
+				2E7190991D39FA110077A97E /* BaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7190701D39F7F80077A97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7190791D39F7F80077A97E /* KitabisaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E71907B1D39F7F80077A97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7190841D39F7F80077A97E /* KitabisaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E7190761D39F7F80077A97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E71905A1D39F7F70077A97E /* Kitabisa */;
+			targetProxy = 2E7190751D39F7F80077A97E /* PBXContainerItemProxy */;
+		};
+		2E7190811D39F7F80077A97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E71905A1D39F7F70077A97E /* Kitabisa */;
+			targetProxy = 2E7190801D39F7F80077A97E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E71906C1D39F7F80077A97E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E71906D1D39F7F80077A97E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E7190861D39F7F80077A97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E7190871D39F7F80077A97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E7190891D39F7F80077A97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BA2B35F9D5F354A500C048 /* Pods-Kitabisa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kitabisa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netra.Kitabisa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E71908A1D39F7F80077A97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A088BE8B0212B78E4FF64CBF /* Pods-Kitabisa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kitabisa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netra.Kitabisa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E71908C1D39F7F80077A97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39C23BC5DF9AFE77F8FFB1F /* Pods-KitabisaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KitabisaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netra.KitabisaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitabisa.app/Kitabisa";
+			};
+			name = Debug;
+		};
+		2E71908D1D39F7F80077A97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D09363734233710521A13D /* Pods-KitabisaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KitabisaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netra.KitabisaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitabisa.app/Kitabisa";
+			};
+			name = Release;
+		};
+		2E71908F1D39F7F80077A97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A880CA1105E279F45066340 /* Pods-KitabisaUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KitabisaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netra.KitabisaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kitabisa;
+			};
+			name = Debug;
+		};
+		2E7190901D39F7F80077A97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188A7778BAD675A74775C35B /* Pods-KitabisaUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = KitabisaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netra.KitabisaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kitabisa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E7190561D39F7F70077A97E /* Build configuration list for PBXProject "Kitabisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7190861D39F7F80077A97E /* Debug */,
+				2E7190871D39F7F80077A97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E7190881D39F7F80077A97E /* Build configuration list for PBXNativeTarget "Kitabisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7190891D39F7F80077A97E /* Debug */,
+				2E71908A1D39F7F80077A97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E71908B1D39F7F80077A97E /* Build configuration list for PBXNativeTarget "KitabisaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E71908C1D39F7F80077A97E /* Debug */,
+				2E71908D1D39F7F80077A97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E71908E1D39F7F80077A97E /* Build configuration list for PBXNativeTarget "KitabisaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E71908F1D39F7F80077A97E /* Debug */,
+				2E7190901D39F7F80077A97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E7190531D39F7F70077A97E /* Project object */;
+}
